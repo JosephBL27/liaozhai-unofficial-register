@@ -1,0 +1,10 @@
+node_modules/
+dist/
+standalone/
+storybook-static/
+output/
+test-results/
+playwright-report/
+.vercel
+.env*
+.DS_Store

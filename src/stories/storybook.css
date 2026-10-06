@@ -1,0 +1,72 @@
+#storybook-root,
+.storybook-surface {
+  min-block-size: 100dvh;
+}
+
+.storybook-stage {
+  min-block-size: 100dvh;
+  padding: clamp(1rem, 2vw, 2rem);
+}
+
+.storybook-stage--register {
+  min-block-size: 52rem;
+}
+
+.storybook-stage--dossier {
+  display: grid;
+  min-block-size: 52rem;
+  padding: clamp(1rem, 4vw, 4rem);
+  place-items: start center;
+}
+
+.storybook-stage--dossier .reading-dossier {
+  inline-size: min(100%, 48rem);
+  padding: 0;
+  transform: none;
+}
+
+.storybook-stage--graph,
+.storybook-stage--world {
+  min-block-size: 48rem;
+}
+
+.storybook-stage--ornament {
+  display: grid;
+  min-block-size: 24rem;
+  place-items: center;
+}
+
+.storybook-stage--ornament figure {
+  inline-size: min(92vw, 68rem);
+  margin: 0;
+}
+
+.storybook-stage--ornament img {
+  display: block;
+  inline-size: 100%;
+}
+
+.storybook-stage--ornament figcaption {
+  max-inline-size: 68ch;
+  margin: 1.2rem auto 0;
+  color: var(--paper-200);
+  font-family: var(--font-reading);
+  line-height: 1.55;
+  text-align: center;
+}
+
+.storybook-reduced-motion *,
+.storybook-reduced-motion *::before,
+.storybook-reduced-motion *::after {
+  scroll-behavior: auto !important;
+  transition-duration: 0.001ms !important;
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+}
+
+@media (max-width: 46rem) {
+  .storybook-stage,
+  .storybook-stage--dossier {
+    padding: 0;
+  }
+}

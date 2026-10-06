@@ -1,0 +1,63 @@
+:root {
+  color-scheme: dark;
+
+  --ink-950: #071416;
+  --ink-900: #0b1c20;
+  --ink-850: #10282c;
+  --wheel-well-inner: #173f42;
+  --wheel-well-outer: #071416;
+  --ink-800: #15343a;
+  --ink-700: #1f4549;
+  --ink-wash: #2b5a59;
+
+  --paper-50: #f2eddf;
+  --paper-100: #e8e1cf;
+  --paper-200: #d7cdb6;
+  --paper-300: #c1b293;
+  --paper-ink: #211d18;
+  --paper-reading-ink: #2d2821;
+  --paper-muted: #665d50;
+
+  --cinnabar-400: #d65b45;
+  --cinnabar-500: #c94936;
+  --cinnabar-600: #a93429;
+  --cinnabar-700: #81261f;
+
+  --celadon-200: #b9d3bf;
+  --celadon-300: #93b8a5;
+  --celadon-400: #6f9e90;
+  --celadon-500: #4f8078;
+  --celadon-700: #254d47;
+  --celadon-ink: #244b47;
+  --celadon-wash: rgba(111, 158, 144, 0.46);
+  --celadon-wash-strong: rgba(67, 111, 103, 0.6);
+
+  --register-line: rgba(218, 204, 171, 0.4);
+  --register-line-soft: rgba(218, 204, 171, 0.18);
+  --paper-line: rgba(55, 47, 37, 0.24);
+  --paper-line-soft: rgba(55, 47, 37, 0.12);
+  --focus-ring: #f0c97e;
+  --error: #e47b63;
+
+  --font-reading: "Literata Variable", Charter, Georgia, serif;
+  --font-cjk: "Noto Serif SC Variable", "Songti SC", serif;
+  --font-register: "Barlow Condensed", "Arial Narrow", sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --header-h: 4.25rem;
+  --rail-h: 6.5rem;
+  --ease-register: cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-paper: 0.7rem 1.1rem 2.8rem rgba(0, 0, 0, 0.38);
+  --shadow-float: 0.4rem 0.8rem 2rem rgba(0, 0, 0, 0.28);
+}
+
+@media (prefers-color-scheme: light) {
+  :root { color-scheme: dark; }
+}
